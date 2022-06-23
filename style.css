@@ -12,16 +12,17 @@ header blockquote {
 }
 
 #doctor {
-    width: 18%;
+    width: 15%;
     position: absolute;
-    margin-left: 430px;
-    margin-top: 10px;
+    margin-left: 45%;
+    margin-top: 150px;
 }
 
 header blockquote p {
-    margin: 30px 30px 20px 50px;
-    background-color: #34db63;
-    padding-top: 100px;
+    margin: 50px 30px 20px 50px;
+    background-color: #ffc108;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 header blockquote p.quote {
@@ -30,24 +31,23 @@ header blockquote p.quote {
 }
 
 header blockquote p.credit {
-    font-size: 0.9em;
-    line-height: 1.3em;
-    position: relative;
+    font-size: 0.8em;
 }
 
 header blockquote::before {
     content: "\201c";
-    color: #d2bd65;
+    color: #624808;
     position: absolute;
     left: 8px;
     transform: rotate(6deg);
     font-size: 5em;
     font-family: serif;
-    padding-left: 20px;
+    padding-left: 45px;
+    margin-top: -20px;
 }
 
 header blockquote p.quote::after {
-    content: "\201d";
+    content: "";
     font-family: serif;
 }
 
@@ -96,8 +96,8 @@ h1 {
     color: #18ba45;
 }
 
-section.vitamin {
-    padding: 20px 10px;
+section {
+    padding: 70px 0px 0px 100px;
 }
 
 section.vitamin article {
@@ -108,7 +108,7 @@ section.vitamin article {
 }
 
 section article button {
-    width: 500px;
+    width: 650px;
     height: 60px;
 }
 
