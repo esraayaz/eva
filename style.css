@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+}
+
+header blockquote {
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    padding-left: 20px;
+}
+
+#doctor {
+    width: 18%;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+
+header blockquote p {
+    margin: 30px 30px 20px 50px;
+    background-color: #34db63;
+    padding-top: 100px;
+}
+
+header blockquote p.quote {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+header blockquote p.credit {
+    font-size: 0.9em;
+    line-height: 1.3em;
+    position: relative;
+}
+
+header blockquote::before {
+    content: "\201c";
+    color: #d2bd65;
+    position: absolute;
+    left: 8px;
+    transform: rotate(6deg);
+    font-size: 5em;
+    font-family: serif;
+    padding-left: 20px;
+}
+
+header blockquote p.quote::after {
+    content: "\201d";
+    font-family: serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#star {
+    width: 2%;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+#comment {
+    color: #6e7274;
+}
+
+#price {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #818487;
+}
+
+#second-price {
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+#product {
+    width: 15%;
+    padding: 5px 0 25px 0px;
+}
+
+#policy {
+    color: #6e7274;
+    font-size: 0.8em;
+    margin-top: -15px;
+}
+
+#stock {
+    color: #6e7274;
+}
+
+#klima {
+    color: #18ba45;
+}
+
+section.vitamin {
+    padding: 20px 10px;
+}
+
+section.vitamin article {
+    padding: 0 0 0 450px;
+    background: url(../images/vitamin-d.jpeg) no-repeat;
+    min-height: 500px;
+    background-size: 30%;
+}
+
+section article button {
+    width: 500px;
+    height: 60px;
+}
+
+section article button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section article button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
