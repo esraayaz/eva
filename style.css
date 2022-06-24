@@ -22,7 +22,7 @@ header blockquote {
     width: 15%;
     position: absolute;
     margin-left: 45%;
-    margin-top: 170px;
+    margin-top: 150px;
 }
 
 header blockquote p {
@@ -34,7 +34,7 @@ header blockquote p {
 
 header blockquote p.quote {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 header blockquote p.credit {
@@ -164,7 +164,7 @@ section article button a:hover {
 @media screen and (max-width: 1250px) {
     #doctor {
         width: 16%;
-        margin-top: 205px;
+        margin-top: 160px;
     }
     #star {
         width: 2.5%;
@@ -181,7 +181,7 @@ section article button a:hover {
 @media screen and (max-width: 1200px) {
     #doctor {
         width: 17%;
-        margin-top: 200px;
+        margin-top: 170px;
     }
     #star {
         width: 2.5%;
@@ -198,13 +198,13 @@ section article button a:hover {
 @media screen and (max-width: 1150px) {
     #doctor {
         width: 17%;
-        margin-top: 200px;
+        margin-top: 180px;
     }
     #star {
         width: 3%;
     }
     section.vitamin article {
-        padding: 0 0 0 420px;
+        padding: 0 0 0 435px;
         background-size: 40%;
     }
 }
@@ -215,7 +215,7 @@ section article button a:hover {
 @media screen and (max-width: 1075px) {
     #doctor {
         width: 17%;
-        margin-top: 195px;
+        margin-top: 190px;
     }
     #star {
         width: 3%;
@@ -232,7 +232,7 @@ section article button a:hover {
 @media screen and (max-width: 1010px) {
     #doctor {
         width: 17%;
-        margin-top: 230px;
+        margin-top: 190px;
     }
     #star {
         width: 3%;
@@ -249,13 +249,13 @@ section article button a:hover {
 @media screen and (max-width: 950px) {
     #doctor {
         width: 18%;
-        margin-top: 250px;
+        margin-top: 240px;
     }
     #star {
         width: 4%;
     }
     section.vitamin article {
-        padding: 0 0 0 400px;
+        padding: 0 10px 0 380px;
         background-size: 45%;
     }
 }
@@ -270,11 +270,11 @@ section article button a:hover {
     }
     #doctor {
         width: 18%;
-        margin-top: 250px;
+        margin-top: 200px;
         margin-left: 42%;
     }
     #star {
-        width: 4%;
+        width: 6%;
     }
     section {
         margin-top: 40px;
@@ -295,11 +295,11 @@ section article button a:hover {
     }
     #doctor {
         width: 18.5%;
-        margin-top: 270px;
+        margin-top: 210px;
         margin-left: 42%;
     }
     #star {
-        width: 5%;
+        width: 6%;
     }
     section {
         margin-top: 50px;
@@ -317,59 +317,61 @@ section article button a:hover {
     header blockquote {
         margin: 0 auto;
         width: 90%;
+        margin-top: 100px;
     }
     header blockquote p {
         font-size: 0.5em;
     }
     #doctor {
         width: 19%;
-        margin-top: 330px;
+        margin-top: -80px;
         margin-left: 42%;
     }
     #star {
-        width: 6%;
-    }
-    section {
-        margin-top: 50px;
-        margin-left: -50px;
+        width: 8%;
     }
     section.vitamin article {
-        padding: 0 0 0 410px;
+        padding: 0 0 0 390px;
         background-size: 60%;
+        margin-left: -10px;
+        margin-top: -30px;
     }
 }
 
 
-/* <=============== Media Queries 675px ===============> */
+/* <=============== Media Queries 670px ===============> */
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 670px) {
     header blockquote {
         margin: 0 auto;
         width: 90%;
         margin-top: 10px;
     }
+    header blockquote p.quote {
+        font-size: 1em;
+    }
     header blockquote p {
         padding-top: 80px;
     }
     header blockquote::before {
-        top: 23px;
+        top: 35px;
     }
     #doctor {
-        width: 23%;
+        width: 22%;
         margin-top: -45px;
         margin-left: 40%;
     }
     #star {
-        width: 4%;
-    }
-    section {
-        margin-top: 50px;
-        margin-left: -50px;
+        width: 3%;
     }
     section.vitamin article {
         margin-top: -60px;
+        margin-left: -50px;
         padding: 350px 0 0 0;
         background-size: 60%;
+    }
+    section.vitamin article div.second-part {
+        margin-top: 40px;
     }
 }
 
@@ -386,7 +388,7 @@ section article button a:hover {
         padding-top: 80px;
     }
     header blockquote::before {
-        top: 23px;
+        top: 35px;
     }
     #doctor {
         width: 23%;
@@ -394,7 +396,7 @@ section article button a:hover {
         margin-left: 40%;
     }
     #star {
-        width: 4%;
+        width: 5%;
     }
     #policy {
         padding-top: 10px;
@@ -405,15 +407,19 @@ section article button a:hover {
     }
     section.vitamin article {
         margin-top: -60px;
+        margin-left: 50px;
         padding: 350px 0 0 0;
         background-size: 60%;
+    }
+    section.vitamin article div.second-part {
+        margin-top: -20px;
     }
 }
 
 
-/* <=============== Media Queries 605px ===============> */
+/* <=============== Media Queries 590px ===============> */
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 590px) {
     header blockquote {
         margin: 0 auto;
         width: 95%;
@@ -423,7 +429,7 @@ section article button a:hover {
         padding-top: 80px;
     }
     header blockquote::before {
-        top: 23px;
+        top: 45px;
     }
     #doctor {
         width: 23%;
@@ -440,14 +446,17 @@ section article button a:hover {
     section.vitamin article {
         margin-top: -60px;
         padding: 350px 0 0 0;
-        background-size: 60%;
+        background-size: 90%;
+    }
+    section.vitamin article div.second-part {
+        margin-top: 10px;
     }
 }
 
 
-/* <=============== Media Queries 500px ===============> */
+/* <=============== Media Queries 495px ===============> */
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 495px) {
     header blockquote {
         margin: 0 auto;
         width: 95%;
@@ -466,16 +475,123 @@ section article button a:hover {
         margin-bottom: 20px;
     }
     #star {
-        width: 9%;
+        width: 4%;
     }
     #policy {
         padding-top: 20px;
     }
     section.vitamin article {
         margin-left: -50px;
-        margin-top: -60px;
-        padding: 0 0 0 290px;
-        background-size: 70%;
+        margin-top: -30px;
+        padding: 0 30px 0 290px;
+        background-size: 80%;
+    }
+}
+
+
+/* <=============== Media Queries 414px ===============> */
+
+@media screen and (max-width: 414px) {
+    header {
+        margin-top: -25px;
+    }
+    header blockquote {
+        text-align: center;
+    }
+    header blockquote p.quote {
+        font-size: 0.8em;
+    }
+    header blockquote p {
+        padding-top: 50px;
+        margin: 50px 13px 5px 0px;
+    }
+    header blockquote::before {
+        top: 35px;
+        left: 1px;
+        font-size: 2.3em;
+    }
+    #doctor {
+        width: 45%;
+        margin-left: -90px;
+        margin-bottom: 10px;
+        margin-top: 250px;
+    }
+    #star {
+        width: 4%;
+    }
+    #policy {
+        padding-top: 20px;
+    }
+    section.vitamin article {
+        margin-top: -300px;
+        padding-top: 430px;
+        background-size: 80%;
+        background-position: center;
+    }
+    section.vitamin article div.second-part {
+        font-size: 1.2em;
+        margin-left: -250px;
+        margin-top: 310px;
+    }
+    section.vitamin article div.second-part h1 {
+        font-size: 0.9em;
+    }
+    section.vitamin article div.second-part p {
+        font-size: 0.8em;
+    }
+}
+
+
+/* <=============== Media Queries 390px ===============> */
+
+@media screen and (max-width: 390px) {
+    header {
+        margin-top: -25px;
+    }
+    header blockquote {
+        text-align: center;
+    }
+    header blockquote p.quote {
+        font-size: 0.8em;
+    }
+    header blockquote p {
+        padding-top: 50px;
+        margin: 50px 13px 5px 0px;
+    }
+    header blockquote::before {
+        top: 35px;
+        left: 1px;
+        font-size: 2.3em;
+    }
+    #doctor {
+        width: 45%;
+        margin-left: -80px;
+        margin-bottom: 10px;
+        margin-top: 270px;
+    }
+    #star {
+        width: 4%;
+    }
+    #policy {
+        padding-top: 20px;
+    }
+    section.vitamin article {
+        margin-top: -300px;
+        padding-top: 430px;
+        background-size: 80%;
+        background-position: center;
+    }
+    section.vitamin article div.second-part {
+        font-size: 1.2em;
+        margin-left: -250px;
+        margin-top: 300px;
+    }
+    section.vitamin article div.second-part h1 {
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+    section.vitamin article div.second-part p {
+        font-size: 0.8em;
     }
 }
 
@@ -483,9 +599,11 @@ section article button a:hover {
 /* <=============== Media Queries 375px ===============> */
 
 @media screen and (max-width: 375px) {
+    header {
+        margin-top: -25px;
+    }
     header blockquote {
         text-align: center;
-        margin-top: 20px;
     }
     header blockquote p.quote {
         font-size: 0.8em;
@@ -500,10 +618,10 @@ section article button a:hover {
         font-size: 2.3em;
     }
     #doctor {
-        width: 25%;
-        margin-left: -35px;
+        width: 45%;
+        margin-left: -80px;
         margin-bottom: 10px;
-        margin-top: -40px;
+        margin-top: 300px;
     }
     #star {
         width: 4%;
@@ -511,12 +629,74 @@ section article button a:hover {
     #policy {
         padding-top: 20px;
     }
+    section.vitamin article {
+        margin-top: -300px;
+        padding-top: 430px;
+        background-size: 80%;
+        background-position: center;
+    }
     section.vitamin article div.second-part {
+        font-size: 1.2em;
         margin-left: -250px;
-        background-position: left 30% top 50%;
+        margin-top: 300px;
     }
     section.vitamin article div.second-part h1 {
-        font-size: 1em;
+        font-size: 0.9em;
+        margin-top: -30px;
+    }
+    section.vitamin article div.second-part p {
+        font-size: 0.8em;
+    }
+}
+
+
+/* <=============== Media Queries 375px ===============> */
+
+@media screen and (max-width: 280px) {
+    header {
+        margin-top: -25px;
+    }
+    header blockquote {
+        text-align: center;
+    }
+    header blockquote p.quote {
+        font-size: 0.8em;
+    }
+    header blockquote p {
+        padding-top: 50px;
+        margin: 50px 13px 5px 0px;
+    }
+    header blockquote::before {
+        top: 35px;
+        left: 3px;
+        font-size: 2.3em;
+    }
+    #doctor {
+        width: 45%;
+        margin-left: -60px;
+        margin-bottom: 10px;
+        margin-top: 400px;
+    }
+    #star {
+        width: 6%;
+    }
+    #policy {
+        padding-top: 20px;
+    }
+    section.vitamin article {
+        margin-top: -300px;
+        padding-top: 430px;
+        background-size: 80%;
+        background-position: center;
+    }
+    section.vitamin article div.second-part {
+        font-size: 1.2em;
+        margin-left: -250px;
+        margin-top: 300px;
+    }
+    section.vitamin article div.second-part h1 {
+        font-size: 0.9em;
+        margin-top: -30px;
     }
     section.vitamin article div.second-part p {
         font-size: 0.8em;
