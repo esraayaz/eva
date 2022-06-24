@@ -1,8 +1,16 @@
-body {
+* {
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
+}
+
+body {
     position: relative;
 }
+
+
+/* <--------------- Header ---------------> */
 
 header blockquote {
     margin: 0 auto;
@@ -11,18 +19,21 @@ header blockquote {
     padding-left: 20px;
 }
 
+
+/* <--------------- Picture - Doctor ---------------> */
+
 #doctor {
     width: 15%;
     position: absolute;
     margin-left: 45%;
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 header blockquote p {
     margin: 50px 30px 20px 50px;
     background-color: #ffc108;
     border-radius: 20px;
-    padding: 20px;
+    padding: 35px 25px 35px 35px;
 }
 
 header blockquote p.quote {
@@ -38,12 +49,12 @@ header blockquote::before {
     content: "\201c";
     color: #624808;
     position: absolute;
-    left: 8px;
-    transform: rotate(6deg);
+    left: 23px;
+    transform: rotate(1deg);
     font-size: 5em;
     font-family: serif;
     padding-left: 45px;
-    margin-top: -20px;
+    margin-top: -3px;
 }
 
 header blockquote p.quote::after {
@@ -54,6 +65,9 @@ header blockquote p.quote::after {
 h1 {
     font-weight: 700;
 }
+
+
+/* <--------------- Product details ---------------> */
 
 #star {
     width: 2%;
@@ -96,6 +110,9 @@ h1 {
     color: #18ba45;
 }
 
+
+/* <--------------- Section - Vitamin ---------------> */
+
 section {
     padding: 70px 0px 0px 100px;
 }
@@ -108,7 +125,7 @@ section.vitamin article {
 }
 
 section article button {
-    width: 650px;
+    width: 75%;
     height: 60px;
 }
 
@@ -120,4 +137,83 @@ section article button a {
 section article button a:hover {
     color: #fff;
     text-decoration: none;
+}
+
+
+/* <=============== Media Queries 1400px ===============> */
+
+@media screen and (max-width: 1400px) {
+    section.vitamin article {
+        padding: 0 0 0 430px;
+        background-size: 30%;
+    }
+}
+
+
+/* <=============== Media Queries 1300px ===============> */
+
+@media screen and (max-width: 1300px) {
+    #doctor {
+        margin-top: 170px;
+    }
+    section.vitamin article {
+        padding: 0 0 0 380px;
+        background-size: 30%;
+    }
+}
+
+
+/* <=============== Media Queries 1250px ===============> */
+
+@media screen and (max-width: 1250px) {
+    #doctor {
+        width: 16%;
+        margin-top: 205px;
+    }
+    section.vitamin article {
+        padding: 0 0 0 400px;
+        background-size: 33%;
+    }
+}
+
+
+/* <=============== Media Queries 1200px ===============> */
+
+@media screen and (max-width: 1200px) {
+    #doctor {
+        width: 17%;
+        margin-top: 200px;
+    }
+    section.vitamin article {
+        padding: 0 0 0 410px;
+        background-size: 35%;
+    }
+}
+
+
+/* <=============== Media Queries 1150px ===============> */
+
+@media screen and (max-width: 1150px) {
+    #doctor {
+        width: 17%;
+        margin-top: 200px;
+    }
+    section.vitamin article {
+        padding: 0 0 0 420px;
+        background-size: 38%;
+    }
+}
+
+
+/* <=============== Media Queries 1000px ===============> */
+
+@media screen and (max-width: 1000px) {
+    #doctor {
+        width: 17%;
+        margin-top: 200px;
+    }
+    section.vitamin article {
+        padding: 0 0 0 420px;
+        background-size: 40%;
+    }
 }
